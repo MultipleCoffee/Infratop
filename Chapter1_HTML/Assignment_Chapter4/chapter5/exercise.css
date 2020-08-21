@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	width: 100%;
+	padding: 20px 0;
+}
+
+.headline {
+	text-align: center;
+}
+
+.list {
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	text-align: center;
+}
+
+.list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	line-height: 30px;
+}
+
+.main {
+	width: 800px;
+	margin: 50px auto;
+}
+
+.num1 {
+	width: 200px;
+	height: 200px;
+	background-color: #e6ffe9;
+	float: left;
+}
+.num2 {
+	width: 200px;
+	height: 200px;
+	background-color: #cbffd3;
+	float: left;
+}
+.num3 {
+	width: 200px;
+	height: 200px;
+	background-color: #aeffbd;
+	float: left;
+}
+.num4 {
+	width: 200px;
+	height: 200px;
+	background-color: #93ffab;
+	float: left;
+}
+.num5 {
+	width: 200px;
+	height: 200px;
+	background-color: #f3ffd8;
+	float: left;
+}
+.num6 {
+	width: 200px;
+	height: 200px;
+	background-color: #edffbe;
+	float: left;
+}
+.num7 {
+	width: 200px;
+	height: 200px;
+	background-color: #e9ffa5;
+	float: left;
+}
+.num8 {
+	width: 200px;
+	height: 200px;
+	background-color: #e4ff8d;
+	float: left;
+}
+.num9 {
+	width: 200px;
+	height: 200px;
+	background-color: #d9e5ff;
+	float: left;
+}
+.num10 {
+	width: 200px;
+	height: 200px;
+	background-color: #bad3ff;
+	float: left;
+}
+.num11 {
+	width: 200px;
+	height: 200px;
+	background-color: #a4c6ff;
+	float: left;
+}
+.num12 {
+	width: 200px;
+	height: 200px;
+	background-color: #8eb8ff;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	height: 120px;
+	background-color: #848282;
+	text-align: center;
+	line-height: 120px;
+}
+
+footer p {
+	color: #fff;
+}
