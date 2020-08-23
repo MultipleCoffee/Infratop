@@ -29,16 +29,15 @@ header {
 header .headline {
 	font-size: 32px;
 }
-.social i {
-	display: inline-block;
-	margin-left: 20px;
-}
 .social {
 	position: absolute;
 	top: 22px;
 	right: 22px;
 }
-
+.social i {
+	display: inline-block;
+	margin-left: 20px;
+}
 .nav-list {
 	text-align: center;
 	padding: 10px 0;
@@ -99,6 +98,7 @@ header .headline {
 	border-bottom: 1px solid #f7f7f7;
 }
 .blog-image {
+	width: 270px;
 	height: 180px;
 	float: left;
 }
@@ -121,7 +121,20 @@ header .headline {
 	color: #fff;
 	font-size: 11px;
 }
-
+.pagination {
+	text-align: center;
+	padding-top: 50px;
+}
+.pagination p {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+	display: inline-block;
+	color: #fff;
+	background-color: #acabab;
+	border-radius: 3px;
+	line-height: 30px;
+}
 .sidebar {
 	width: 230px;
 	float: left;
@@ -173,21 +186,6 @@ header .headline {
 	background-image: url(img/road.jpg);
 }
 
-.pagination {
-	text-align: center;
-	padding-top: 50px;
-}
-.pagination p {
-	width: 30px;
-	height: 30px;
-	display: inline-block;
-	color: #fff;
-	background-color: #acabab;
-	border-radius: 3px;
-	padding: 0 5px;
-	line-height: 30px;
-}
-
 footer {
 	width: 100%;
 	height: 120px;
@@ -197,4 +195,56 @@ footer {
 }
 .footer-text {
 	color: #fff;
+}
+
+@media screen and (max-width:425px) {
+  header {
+    width: 100%;
+  }
+  .nav-list {
+    width: 100%;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .social {
+    display: none;
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .blog {
+    width: 100%;
+    margin: 0;
+  }
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .blog-image {
+    width: 49%;
+  }
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+  .sidebar {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+  .pagination { 
+    margin-bottom: 50px;
+  }
 }
