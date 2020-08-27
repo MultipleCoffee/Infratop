@@ -24,10 +24,27 @@ a {
 .main-titles {
 	font-size: 32px;
 	color: #000;
-	border-bottom: 3px solid #ec715f;
 	text-align: center;
 	padding-top: 90px;
 	padding-bottom: 8px;
+	position: relative;
+}
+.main-titles::before {
+	content: "";
+	width: 70px;
+	height: 3px;
+	background-color: #ec715f;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.main-titles2 {
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	margin: 10px auto;
 }
 .main-texts {
 	text-align: center;
@@ -128,3 +145,25 @@ nav {
 	background-image: url(img/webcamp-mother.png);
 }
 
+.feature-text {
+	width: 980px
+	margin: 0 auto;
+}
+.strengths {
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.strength {
+	width: 320px;
+	padding-right: 10px;
+	float: left;
+}
+.strength:last-child {
+	padding-right: 0;
+}
+.fas {
+	font-size: 60px;
+	display: block;
+	text-align: center;
+}
