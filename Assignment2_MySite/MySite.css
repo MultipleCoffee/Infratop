@@ -43,8 +43,7 @@ a {
 .main-titles2 {
 	font-size: 20px;
 	color: #000;
-	text-align: center;
-	margin: 10px auto;
+	margin: 0 auto 5px;
 }
 .main-texts {
 	text-align: center;
@@ -166,4 +165,90 @@ nav {
 	font-size: 60px;
 	display: block;
 	text-align: center;
+}
+.strength-title {
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.profile-text {
+	width: 1024px;
+	margin: 0 auto;
+}
+.Author {
+	width: 1024px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.profile-image {
+	width: 512px;
+	height: 250px;
+	float: left;
+}
+.profile-image img {
+	border-radius: 50%;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0 auto;
+}
+.self-intro {
+	width: 512px;
+	float: left;
+}
+.self-intro-texts {
+	margin-bottom: 20px;
+}
+
+.contact-text {
+	width: 800px;
+	margin: 0 auto;
+}
+.info {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.left-info {
+	width: 400px;
+	float: left;
+}
+.address {
+	width: 100px;
+	margin: 0 auto;
+}
+.address-text {
+	margin-bottom: 20px;
+}
+.right-info {
+	width: 400px;
+	float: left;
+}
+.sns {
+	width: 190px;
+	margin: 0 auto;
+}
+.icons {
+	display: inline-block;
+	margin: 0 auto;
+}
+.icons i {
+	font-size: 50px;
+	padding-right: 20px;
+}
+.icons i:last-child {
+	padding-right: 0;
+}
+footer {
+	height: 60px;
+	background-color: #ec715f;
+}
+footer p {
+	text-align: center;
+	line-height: 60px;
+	font-size: 16px;
+	color: #fafafa;
 }
